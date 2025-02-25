@@ -1,3 +1,4 @@
+one();
 function one(){
     const name = "Talha";
     function two(){
@@ -10,17 +11,17 @@ function one(){
 }
 
 
-one();
+// one();
 
 
-
+// func(5);     not allowed(hositing)
 const func = function add(num){
 
     return num + 1;
 }
 
 
-// add(5)
+// add(5)       now allowed
 
-console.log(func(5));
+console.log(func(5));   // allowed
 
